@@ -1,24 +1,16 @@
-<!DOCTYPE html>
+<!DOCTYPE>
 <html>
-<body>
-	<p id="demo">Assignment</p>
-	<h1 id="one">Morning</h1>
-	<button onclick="document.getElementById('one').style.fontSize='50px'">Button 1</button>
-	<img id='img' src="https://img2.wjcha8.com/Pics/12/12138/faedab64034f78f0400c9c5a75310a55b3191c17.jpg" height="400" width="280">
-	<button onclick="document.getElementById('img').src='https://pic1.zhimg.com/80/v2-f248f0603a9fafc33832ae05d78a5c18_1440w.jpg'" >Button 2</button>
-	<button onclick="document.getElementById('demo').style.display='none'">Button 3</button>
-	<button onclick="document.getElementById('one').innerHTML='Afternoon'">Button 4</button>
-	
-	<img id='jjy' src="https://n.sinaimg.cn/sinakd20111/573/w571h802/20210417/7d77-knvsnuf9273152.png" height="400" width="280">
-	<button onclick="document.getElementById('jjy').height='340'">Button 5</button>
-
-	<p id="display"></p>
- 
-<button onclick="alert(Date())">Button 6</button>
-
-	<p id="cal"></p>
-	<button onclick="document.getElementById('cal').innerHTML = 10+10">Button 7</button>
-	<button onclick="document.write(10+10)">Document.Write</button>
-	
+<head>
+<script src="script.js"></script>
+</head>
+<body onload="alert(Date())" onkeydown="alert('They are my favourite idols')">
+<img id='img' src="https://img2.wjcha8.com/Pics/12/12138/faedab64034f78f0400c9c5a75310a55b3191c17.jpg" height="400" width="280" onmouseover="pic()">
+<p id="one" onclick="change1()">He is Karry</p>
+<p id="two" onmouseover='change2()'>Three changes at the same time</p>
+<h1 id ='demo'>20</h1>
+<button onclick='ftoc()'>F to C</button>
+<p id="new"></p>
+<button onclick='sum()'>Calculator</button>
+<p onclick="asking()">Name</p>
 </body>
 </html>
